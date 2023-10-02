@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbwmlo22bvpoc"]
+
+[ext_resource type="Script" path="res://suitcase_slot.gd" id="2_72oil"]
+
+[node name="SuitcaseSlot" type="TextureRect"]
+custom_minimum_size = Vector2(128, 128)
+offset_right = 128.0
+offset_bottom = 128.0
+expand_mode = 1
+script = ExtResource("2_72oil")
+
+[node name="Panel" type="Panel" parent="."]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
